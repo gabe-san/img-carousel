@@ -1,0 +1,30 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* container/picture frame to hold all the pictures */
+.container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* image css, hide all so that loop can go through and display one by one */
+.carousel {
+  display: none;
+  width: 100vw;
+}
+
+/* js function loops through nodelist to assign this property in order to show carousel */
+.displaySlide {
+  display: block;
+}
+
+/* class for showing navigation buttons on bottom of carousel */
+.active {
+  background-color: red;
+}
